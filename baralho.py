@@ -1,5 +1,7 @@
 import random
 
+list = [1, 2, 3, 4, 5, 6, 7]
+quant = []
 class Baralho:
     def __init__(self):
         naipes = ['Paus', 'Ouros', 'Copas', 'Espadas']
@@ -13,7 +15,7 @@ class Baralho:
             return None
         return self.cartas.pop()
     
-b01 = Baralho()
+'''b01 = Baralho()
 b01.embaralhar()
 cd01 = Baralho.distribuir_carta(b01)
-print(cd01)
+print(cd01)'''
